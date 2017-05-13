@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Contact The Developer"
+    android:icon="@android:drawable/ic_menu_call"
+        android:key="contact"
+    />
+    <Preference android:title="About This App"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:key="about"
+        />
+    <Preference android:title="How To Use"
+        android:icon="@android:drawable/ic_menu_help"
+        android:key="info"
+        />
+    <Preference android:title="Other Apps By Me"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:key="other"
+        />
+
+
+
+</PreferenceScreen>

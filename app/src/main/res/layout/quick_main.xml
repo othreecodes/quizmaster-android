@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".QuickQuiz">
+
+
+
+    <include layout="@layout/activity_quick_quiz" />
+
+    <android.support.design.widget.FloatingActionButton
+        app:elevation="10dp"
+        android:id="@+id/nextfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/start"
+        app:fabSize="normal"
+        style="@style/FloatingActionButton"
+        android:opacity="transparent"
+        android:alpha="0.6"
+        />
+
+</android.support.design.widget.CoordinatorLayout>
