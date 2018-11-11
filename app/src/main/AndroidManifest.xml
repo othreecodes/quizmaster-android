@@ -3,7 +3,7 @@
     package="othree.quiz_master">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!--<uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />-->
     <uses-permission android:name="android.permission.FLAG_GRANT_READ_URI_PERMISSION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -97,15 +97,7 @@
             android:excludeFromRecents="true"
             android:label="Load Quiz"
             android:launchMode="singleTask" >
-            <intent-filter >
-                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.OPENABLE" />
-
-                <data android:mimeType="*/*" />
-            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

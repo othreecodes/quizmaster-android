@@ -1,28 +1,20 @@
 package othree.quiz_master;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Icon;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
-import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.support.design.widget.Snackbar;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -448,8 +440,8 @@ public class NormalQuiz extends AppCompatActivity {
             q.setQuestionNumber(counter);
 
             Allquestions.add(q);
-            LastNumber = counter;
             counter++;
+            LastNumber = counter;
 
 
         }
@@ -462,7 +454,7 @@ public class NormalQuiz extends AppCompatActivity {
     boolean apocalypse = false;
     private void startThis() {
         int arraycount = currentQuestion-1;
-        if(arraycount==LastNumber-1){
+        if(arraycount==LastNumber){
        // fab.setImageIcon(Icon.createWithResource(getApplicationContext(),R.mipmap.ic_finished));
             apocalypse = true;
         }

@@ -1,7 +1,5 @@
 package othree.quiz_master;
 
-import android.app.FragmentManager;
-import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.Preference;

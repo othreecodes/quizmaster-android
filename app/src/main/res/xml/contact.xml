@@ -4,7 +4,9 @@
     android:icon="@android:drawable/ic_menu_call"
         android:key="contact"
     />
-    <Preference android:title="About This App"
+    <Preference
+
+            android:title="About This App"
         android:icon="@android:drawable/ic_menu_info_details"
         android:key="about"
         />
